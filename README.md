@@ -21,7 +21,8 @@ Cisco ACI is a comprehensive SDN solution, making the application the focal poin
 ###ACI
 **GUI:** APIC controller has a GUI enabled interface to allow for configuration and operations.  
 
-**REST APIs:** APIC can be configured, managed and operated through APIs if desired, (as well as through the GUI). Here using API's, its possible program, automate, orchestrate the ACI infrastructure and services. Tools such as Python, UCS Director, CloudCenter are just a few.
+**REST APIs:** APIC can be configured, managed and operated through APIs if desired, (as well as through the GUI). Here using API's, its possible program, automate, orchestrate the ACI infrastructure and services. Tools such as Python, UCS Director, CloudCenter are just a few. Documentation can be found [here.](http://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/1-x/api/rest/b_APIC_RESTful_API_User_Guide.html)
+
 
 **VISORE** This is a tool within the APIC controller. It allows the programmer to navigate the Management Information Tree (MIT). Bascially this would provide information on the API calls that would be needed to make REST calls. [Here's a nice introduction.]
  (http://www.cisco.com/c/en/us/support/docs/cloud-systems-management/application-policy-infrastructure-controller-apic/118839-technote-visore-00.html)

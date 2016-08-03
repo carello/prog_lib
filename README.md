@@ -42,7 +42,7 @@ Cisco ACI is a comprehensive SDN solution, making the application the focal poin
 
 
 
-###OTHER TOOLS (work to be done here)
+###OTHER TOOLS
 
 **COBRA SDK:** Cobra is the officially supported python bindings for Cisco APIC REST API. It provides a pythonic library that allows developers to quickly develop and test applications to program the Cisco ACI through the APIC.  
 

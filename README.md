@@ -18,7 +18,7 @@ ACI as well as standalone Open NXOS are designed for programmability. The softwa
  
 Cisco ACI is a comprehensive SDN solution, making the application the focal point. It is delivered on an agile, open, and highly secure architecture. Its application-based policy model offers speed through automation, reducing errors and accelerating application deployment and IT processes from weeks to minutes.  Supporting Docker containers, Micro-Segmentation, Choice of Cloud Management Platforms and Service Insertiion and Chaining.
 
-###ACI  (need to add links)
+###ACI
 **GUI:** APIC controller has a GUI enabled interface to allow for configuration and operations.  
 
 **REST APIs:** APIC can be configured, managed and operated through APIs if desired, (as well as through the GUI). Here using API's, its possible program, automate, orchestrate the ACI infrastructure and services. Tools such as Python, UCS Director, CloudCenter are just a few.

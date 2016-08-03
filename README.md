@@ -1,6 +1,6 @@
 # prog_lib
 
-#### To make things easier to fine. This is a master repo to references/links to my specific repo's of code examples for NXOS, ACI, Spark and more.  
+#### To make things easier to find... This is a master repo with references/links to my specific repos of code examples for NXOS, ACI, Spark and more.  
 
 Scripts the highlight ACI and Spark: 
 <https://github.com/cpuskarz/ahs>

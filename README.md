@@ -1,6 +1,6 @@
 # prog_lib
 
-This repo is a starting point for programmability related to ACU and Open NX-OS. Below is an overview and links to tools and resources. Also, I've include links to my repos of code examples for NXOS, ACI, Spark and more:  
+This repo is a starting point for programmability related to ACI and Open NX-OS. Below is an overview and links to tools and resources. Also, I've include links to my repos of code examples for NXOS, ACI, Spark and more:  
 
 * Scripts that highlight ACI and Spark: 
 <https://github.com/cpuskarz/ahs>
@@ -14,27 +14,27 @@ This repo is a starting point for programmability related to ACU and Open NX-OS.
 
 #ACI and Nexus Programmability Overview  
 
-ACI and Open NXOS are designed for programmability. The software has APIs and tools to enhance the programmability experience.  
+ACI, Nexus 9k, and Open NXOS are designed for programmability. 
  
 Cisco ACI is a comprehensive SDN solution, making the application the focal point. It is delivered on an agile, open, and highly secure architecture. Its application-based policy model offers speed through automation, reducing errors and accelerating application deployment and IT processes from weeks to minutes.  Supporting Docker containers, Micro-Segmentation, Choice of Cloud Management Platforms and Service Insertiion and Chaining.  
 
 Below are descriptions and links to tools and resources.
 
 ###ACI
-**GUI:** APIC controller has a GUI enabled interface to allow for configuration and operations. There are many resources @ Cisco.com. To get started, please take a look at these links:  
+**GUI:** APIC controller has a GUI enabled interface to allow for configuration and operations. There are many resources on Cisco.com. To get started, please take a look at these links:  
 [Getting started with a basic configuration](http://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/1-x/basic-config/b_ACI_Config_Guide.html)  
 [Detailed guides](http://www.cisco.com/c/en/us/support/cloud-systems-management/application-policy-infrastructure-controller-apic/tsd-products-support-series-home.html)
 
 
 
-**REST APIs:** APIC can be configured, managed and operated through APIs if desired, (as well as through the GUI). Here using API's, its possible program, automate, orchestrate the ACI infrastructure and services. Tools such as Python, UCS Director, CloudCenter are just a few. Documentation can be found [here.](http://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/1-x/api/rest/b_APIC_RESTful_API_User_Guide.html)
+**REST APIs:** APIC can be configured, managed and operated through APIs if desired, (as well as through the GUI). Using API's, its possible program, automate, orchestrate the ACI infrastructure and services. Tools such as Python, UCS Director, CloudCenter are just a few. Documentation can be found [here.](http://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/1-x/api/rest/b_APIC_RESTful_API_User_Guide.html)
 
 
-**VISORE** This is a tool within the APIC controller. It allows the programmer to navigate the Management Information Tree (MIT). Bascially this would provide information on the API calls that would be needed to make REST calls. [Here's a nice introduction.]
+**VISORE** This is a tool within the APIC controller. It allows the programmer to navigate the Management Information Tree (MIT). Bascially this would provide information on the structure/syntax of APIs that would be needed to make REST calls. [Here's a nice introduction.]
  (http://www.cisco.com/c/en/us/support/docs/cloud-systems-management/application-policy-infrastructure-controller-apic/118839-technote-visore-00.html)
 
 
-**API INSPECTOR:** The is a tool that captures any REST calls the the GUI or system is making. This is handy to quickly find the API calls for a specific task. For example: 'create tenant RED'. You would see the REST formatting. These can quickly be posted into a REST Client such as POSTMAN for quick formatting. [Here's a good introduction with examples.] (http://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/1-x/api/rest/b_APIC_RESTful_API_User_Guide/b_IFC_RESTful_API_User_Guide_chapter_0100.html)
+**API INSPECTOR:** Also, included in ACI. The is a tool that captures any REST calls the the GUI or system is making. This is handy to quickly find the API calls for a specific task. For example: 'create tenant RED'. You would see the REST formatting. These can quickly be posted into a REST Client such as POSTMAN for quick formatting. [Here's a good introduction with examples.] (http://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/1-x/api/rest/b_APIC_RESTful_API_User_Guide/b_IFC_RESTful_API_User_Guide_chapter_0100.html)
 
 
 

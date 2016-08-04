@@ -23,6 +23,8 @@ Below are descriptions and links to tools and resources.
 [Getting started with a basic configuration](http://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/1-x/basic-config/b_ACI_Config_Guide.html)  
 [Detailed guides](http://www.cisco.com/c/en/us/support/cloud-systems-management/application-policy-infrastructure-controller-apic/tsd-products-support-series-home.html)
 
+**ACI Tool Kit:** The ACI Toolkit is a set of python libraries that allow basic configuration of the Cisco APIC controller. It is intended to allow users to quickly begin using the REST API and accelerate the learning curve necessary to begin using the APIC.  
+[Documentation and Tutorials](http://datacenter.github.io/acitoolkit/)
 
 
 **REST APIs:** APIC can be configured, managed and operated through APIs if desired, (as well as through the GUI). Using API's, its possible program, automate, orchestrate the ACI infrastructure and services. Tools such as Python, UCS Director, CloudCenter are just a few. Documentation can be found [here.](http://www.cisco.com/c/en/us/td/docs/switches/datacenter/aci/apic/sw/1-x/api/rest/b_APIC_RESTful_API_User_Guide.html)

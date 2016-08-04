@@ -2,13 +2,11 @@
 
 This repo is a starting point for programmability related to ACI and Open NX-OS. Below is an overview and links to tools and resources. Also, I've include links to my repos of code examples for NXOS, ACI, Spark and more:  
 
-* Scripts that highlight ACI and Spark: 
-<https://github.com/cpuskarz/ahs>
+* Scripts that highlight [ACI and Spark](https://github.com/cpuskarz/ahs)
 
-* Scripts that hightlight Nexus standalone programming: <https://github.com/cpuskarz/nxos-aci-examples>
+* Scripts that hightlight [Nexus NX-OS Programming](https://github.com/cpuskarz/nxos-aci-examples)
 
-* Scripts that highlight ACI and vCenter:
-<https://github.com/cpuskarz/epgpgattr>  
+* Scripts that highlight [ACI and vCenter](https://github.com/cpuskarz/epgpgattr)  
 
 
 

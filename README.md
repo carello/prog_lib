@@ -65,7 +65,8 @@ NX-OS provides a **NXAPI Sandbox**. It is a web-based user interface that you us
 [Arya](https://github.com/datacenter/arya) is a tool that will convert APIC object documents from their XML or JSON form into the equivalent Python code leveraging the Cobra SDK.
 
 
-**POSTMAN:**  POSTMAN REST Client from Google, for testing web services. Postman makes it easy to test APIs quickly, by putting together both simple and complex HTTP requests.   [Docs and Blogs](https://www.getpostman.com/docs/blog_mentions)
+**POSTMAN:**  POSTMAN REST Client from Google, for testing web services. Postman makes it easy to test APIs quickly, by putting together both simple and complex HTTP requests.  
+Here are some samples for [ACI](https://github.com/cpuskarz/nxos-aci-examples)  and a few [Docs and Blogs](https://www.getpostman.com/docs/blog_mentions)
 
 
 
